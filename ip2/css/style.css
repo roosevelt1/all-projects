@@ -1,0 +1,9 @@
+#logo{
+  background-image: url("../img/landing.jpg");
+  padding:20%;
+  padding-bottom: 400px;
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+
+}
