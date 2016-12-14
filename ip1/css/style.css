@@ -1,0 +1,7 @@
+body > div{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:Verdana,sans-serif;
+  background-color: red;
+}

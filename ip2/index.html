@@ -1,26 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewpoint" content="width=width-device">
-    <title>anita kitchens</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-3.1.1.js"></script>
-        <script src="js/scripts.js"></script>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-      <div id= "wrapper">
-      <div class="container">
-      <div class="top">
-      </div>
-      <div id="logo">
-    <img src="img/logoBig.png" alt="logo" type="logo">
-    <p><br> we provide the best food</br>  At the <strong> Right Price</p>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anita's kitchen</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <div class="col-md-12" id="landing">
+          <img src="img/logoBig.png"/><p class="motto">We Provide The Best Food</br>At The <strong>Right Price</strong></p>
+            </div> <!--closes landing-->
+    <div class="row col-md-12" id="header">
+             <div  class="col-md-3" id="hours">
+                 <div class="row">
+                     <div class="col-md-12">
+               <p class="happy">Happy hour</p>
+                     </div>
+               </div>
+               <div class="row">
+                     <div class="col-md-12">
+               <p class="party">Party time</p>
+                   </div>
+               </div>
+            </div> <!--closes hours-->
+                <div id="hdImgs" class="col-md-3">
+                         <img src="img/breakfast.jpg" alt="breakfastimage" class="headerImg"/>
+                             </div> <!--closes img1-->
+                       <div id="hdImgs" class="col-md-3">
+                            <img src="img/lunch.jpg" alt="breakfastimage"  class="headerImg"/>
+                               </div> <!--closes img2-->
+                             <div  id="hdImgs" class="col-md-3">
+                                    <img src="img/dinner.jpg" alt="breakfastimage"  class="headerImg"/>
+                                            </div> <!--closes img3-->
+        </div> <!--closes row-->
+<div class="container" >
+    <div class="row">
+        <div id="foodimg">
+            <img src="img/fastFood1.jpg" alt="food1"/></br><img src="img/fastFood2.jpg" alt="food1"/>
+        </div> <!--closesfoodimg-->
+        <div class="col-md-offset-1 col-md-4 foodP">
+            <h1>Fast Food</h1>
+            <h2>You'll love our delicious fast food</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+             <button type="button" class="btn">view Gallery</button>
+        </div>
+    </div> <!--closes row-->
+    <div class="row">
+        <div id="drinkimg">
+            <img src="img/drink1.jpg" alt="food1"/><img src="img/drink2.jpg" alt="food1"/>
+        </div> <!--closes drinkimg-->
+        <div class="col-md-offset-2 col-md-4 foodP">
+            <h1>Drinks</h1>
+            <h2>We also produce delicious drinks</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+            <button type="button" class="btn">view Gallery</button>
+        </div>
+    </div> <!--closes row-->
+</div> <!--closes container-->
+ <div class="col-md-12" id="bottomMenu">
+     <div id="bMenugrnd" class="col-md-offset-1 col-md 8">
+         <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Fast foods</a></li>
+            <li><a href="#">Drinks</a></li>
+            <li><a href="#">Chicken</a></li>
+            <li><a href="#">Rice</a></li>
+         </ul>
+         <div class="col-md-3 bmenuImg"><img src="img/chickenBurger.jpg"/><p class="txt">chicken burger</p></div>
+         <div class="col-md-3 bmenuImg"><img src="img/beefBurger.jpg"/><p class="txt">beef burger</p></div>
+         <div class="col-md-3 bmenuImg"><img src="img/chickenPizza.jpg"/><p class="txt">chicken pizza</p></div>
+     </div>
+ </div> <!--closes bottomMenu-->
+<div class="customers col-md-offset-2 col-md-9">
+    <div class="clients">
+        <h2>Our happy customers</h2>
+        <h3>George Richard</h3>
+        <p>Great food, Awesome!! food here is not only great but truly satisfying even in Price</p>
+        <img src="img/p1.png" alt="customer1"/>
+        <img src="img/p2.png" alt="customer1"/>
+        <img src="img/p3.png" alt="customer1"/>
     </div>
+    <div class="clients">
+        <h2>About Menu</h2>
+        <p>we are a menu, a team of at least 7 members  tempor incididunt  ut labore et dolore magna aliqua. Ut enim ad minim veniamut labore et dolore magna</p>
+    </div>
+</div>
+<div class="col-md-12" id="menuarea">
+  <!-- <img src="img/subscribe.jpg"/> -->
+  <div class="form-inline" id="fm">
+    <form>
+        <label for="subscribe">Get our daily food items delivered to your Email</label> </br>
+        <input type="text" id="subscribe" class="form-control"></input>
+        <button type="submit" class="btn btn-warning">Subscribe</button>
+    </form>
   </div>
-  </div><!---End of the wrapper--->
-  <div class="row"
-  <div class="col-md-3">
-    </body>
+</div>
+
+<script src=""js/jquery-3.1.1.js""></script>
+<script src=""js/bootstrap.min.js""></script>
+</body>
 </html>

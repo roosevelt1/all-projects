@@ -1,0 +1,132 @@
+body {
+    color: #fff;
+    background-image: url("../img/dice.png");
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow: 1px 1px red;
+}
+
+h3 {
+    display: none;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+
+form {
+    max-width: 650px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    max-width: 300px;
+    margin-left: 25px;
+}
+
+#nameOne {
+    float: left;
+}
+
+#nameTwo {
+    float: right;
+}
+
+#scoreboard {
+    font-size: 25px;
+    background-image: url("../img/dice6.jpg");
+    border: 2px solid #595959;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 15%;
+    min-height: 320px;
+    margin-top: 10%;
+}
+
+#scoreboard h2 {
+    color: #e6005c;
+}
+
+#slogan {
+    text-align: center;
+    color: #e60056;
+    padding: 40px;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 1px solid #f2f2f2;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+}
+
+#output1 {
+    margin-left: 12%;
+}
+
+#output2 {
+    margin-left: 12%;
+}
+
+#output1, #output2 {
+    border: 3px solid #595959;
+    width: 30%;
+    border-radius: 5px;
+    min-height: 185px;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+.container {
+    display: none;
+}
+
+.title {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 100px;
+}
+
+.subtitle {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 50px;
+    background: none;
+    border: none;
+}
+
+.subtitle:hover {
+    color: #a6a6a6;
+}
+
+.row {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.player1, .player2 {
+    padding: 3rem;
+    width: 40%;
+}
+
+.player2 {
+    margin-left: 10%;
+}
+
+.player1 button, .player2 button {
+    margin: 2rem;
+}
+
+.total {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 45px;
+    color: #b62f2f;
+}

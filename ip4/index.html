@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Pig Dice</title>
+</head>
+
+<body>
+    <div id="introduction">
+        <h1 class="title">DICE OR DIE</h1>
+        <form id="form">
+            <input type="text" id="nameOne" placeholder="Player One, enter your name" class="form-control">
+            <input type="text" id="nameTwo" placeholder="Player Two, enter your name" class="form-control">
+            <h2 class="subtitle">Let's play.</h2>
+        </form>
+    </div>
+    <div class="container">
+        <h1 id="slogan">play time!!!</h1>
+        <div class="row">
+            <div class="col-md-6 player1" id="players">
+                <h1></h1>
+                <button class="btn btn-default btn-lg" id="rollOne">Roll</button>
+            </div>
+            <div class="col-md-6 player2" id="players">
+                <h1></h1>
+                <button class="btn btn-default btn-lg" id="rollTwo">Roll</button>
+            </div>
+        </div>
+        <div class="row" id="scoreboard">
+            <h2>Scoreboard</h2>
+            <div id="output1" class="col-md-6">
+                <span class="diceroll"></span></br>
+                <span class="total"></span>
+                <h3 class="turn1">Your turn is over!</h3>
+            </div>
+            <div id="output2" class="col-md-6">
+                <span class="diceroll"></span></br>
+                <span class="total"></span>
+                <h3 class="turn2">Your turn is over!</h3>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src=js/scripts.js></script>
+</body>
+
+</html>
