@@ -1,14 +1,28 @@
-
-#header {
-   background-color: blue;
-   color: white;
-   text-align: center;
+header {
+    background-color: #f4b942;
+    width: auto;
+    height: 100px;
+    text-align: center;
 }
 
-#rules {
-   background-color: orange;
+#ping-pong {
+    padding-bottom: 40%;
+}
+
+#game {
+    padding-top: 70;
+    text-align: center;
 }
 
 body {
-   background-image: url("../img/tt.png");
+    color: black;
+    background-color: #3c4401;
+    background-image: url(../images/rCKr7Z.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#no-bullets {
+    list-style-type: none;
 }

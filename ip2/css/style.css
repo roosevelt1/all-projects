@@ -1,144 +1,220 @@
-body {
-   font-family: Lora;
-    margin: 0px;
-    padding: 0px;
+.landing {
+    background-image: url('../img/landing.jpg');
+    text-align: center;
+    font-size: 36px;
+    margin-left: 0px;
+    width: 1400px;
+    height: 636px;
 }
 
-div#landing {
-   background-image: url(../img/landing.jpg);
-   background-repeat: no-repeat;
-   height: 636px;
-   margin: 0px;
-   text-align: center;
+#menu{
+    float: left;
+    margin-left: 5px;
 }
 
-.motto {
-   color: white;
-   font-size: 26px;
-}
-
-/*#header {
-   width: 1200px;
-}*/
-#hours {
-   margin: 0;
-   padding: 0;
-}
-#hours p{
-   margin: 0px;
-   border-width: 25%;
-   border: 1px solid grey;
-   text-align: center;
-   padding-top: 15px;
-   height: 105px;
-   font-size: 24px;
-}
-
-.happy{
-   background-color: grey;
+.nav1 {
+    opacity: 0.7;
 
 }
 
-.party{
-   background-color: #ff751a ;
-}
-#hdImgs{
-   margin-left: 0px;
-   padding: 0px;
-   margin-right: 0px;
-   /*width: 25%;*/
-   }
-.headerImg{
-   margin-left: 0px;
-   padding: 0px;
-   margin-right: 0px;
-   }
-
-#foodimg {
-   margin: 30px 20px;
-   float: left;
-   box-shadow: 1px 1px 1px 1px #ffccff ;
-   padding: 10px;
-   background-color: whitesmoke;
-
+.jumbotron {
+    width: 1400px;
+    height: 636px;
 }
 
-.foodP{
-   width:300px;
-   float: left;
-   text-indent: 2px;
-   padding: 20px;
+#jumbotron {
+    background-image: url('../img/foodsBg.jpg');
+    width: 1350px;
+    height: 599px;
+}
 
+#menulogo {
+    width: 1400px;
+    padding-top: 10%;
+}
+
+#Text {
+    color: white;
+    padding-top: 20%;
+}
+
+#logoText {
+    color: white;
+}
+.hours div: hover .{
+    opacity: 0.5;
+}
+.button1 {
+    background-color: white;
+    font-size: 28px;
+    text-align: center;
+    width: 350px;
+    height: 105px;
+}
+
+.button2 {
+    background-color: #f96018;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    width: 350px;
+    height: 105px;
+}
+
+.breakfast {
+    background-image: url('../img/breakfast.jpg');
+    font-size: 28px;
+    text-align: center;
+    width: 350px;
+    height: 210px;
+}
+
+.lunch {
+    background-image: url('../img/lunch.jpg');
+    font-size: 28px;
+    text-align: center;
+    opacity: 0.5;
+    width: 350px;
+    height: 210px;
+}
+
+.dinner {
+    background-image: url('../img/dinner.jpg');
+    font-size: 28px;
+    text-align: center;
+    width: 350px;
+    height: 210px;
 
 }
 
-#drinkimg {
-   margin-bottom: 0px;
-   float: right;
-   box-shadow: 1px 1px 1px 1px #ffccff ;
-   padding: 10px;
-   background-color: whitesmoke;
+#customers {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-#bottomMenu {
-   background-image: url(../img/foodsBg.jpg);
-   background-repeat: no-repeat;
-   height: 599px;
-   margin-top: 30px;
-   padding-top: 100px;
-
+.box {
+    padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
-
-#bMenugrnd {
-   /*margin: auto;*/
-   width: 75%;
-   height: 70%;
-   background-color: whitesmoke;
-   padding-top: 40px;
-
+#About {
+    text-align: right;
 }
 
-#bMenugrnd li {
-   width: 200px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 90%;
-   font-weight: bold;
+.subscribe {
+    background-image: url('../img/subscribe.jpg');
+    width: 1400px;
+    height: 301px;
 }
 
-.bmenuImg{
-   width: 30%;
-   margin-left: 15px;
+.subscription {
+    color: white;
+    text-align: center;
 }
 
-.txt {
-   color: red;
+#substate {
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.navbar {
+    padding-left: 20%;
+}
+
+.nav1{
+    padding-top: 50px;
+}
+#nav-background{
+    background-color: white;
+}
+
+.boxed{
+    border: solid;
+    border-color: silver;
+    box-shadow: inset;
+    margin-left: 132px;
+}
+
+#box1{
+    margin-right: 120px;
+}
+
+#boxify{
+    margin-left: 130px;
+}
+
+.left-half1{
+    text-align: right;
+}
+#no-dots{
+    list-style-type: none;
+}
+
+#chicken{
+    padding-left:5%;
+}
+
+#beef{
+padding-left
+}
+
+#pizza{
+ margin-right:0px;
+}
+
+.btn-group {
+    width: 1200px 200px;
+    padding-top: 10%;
+}
+
+#foods {
+    margin-left: 150px;
+    margin-right:170px;
 }
 
 .customers {
-   height:auto;
-   width: 70%;
-   margin: 5% 16% ;
-   padding: 15px;
-   box-shadow: 1px 1px 1px 1px #ff4da6 ;
-   background-color: whitesmoke;
+    width: 914px;
+    height: 200px;
 }
 
-.clients {
-   height:250px;
-   width: 50%;
-   float: left;
-   padding: 5px;
-   text-align: center;
+#About{
+    text-align: center;
+
 }
-.clients h2 {
-   color: red;
-/*#fm{
- text-align: center;
- padding: 30%;
-}*/
-#menuarea{
- background-image: url("../img/subscribe.jpg");
- background-repeat: no-repeat;
- height: 500px;
+.boader1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 900px;
+    margin:
+}
+
+footer {
+    background-color: #f96018;
+    width: 1400px;
+    height: 400px;
+}
+
+#sociallogo {
+    padding-left: 45%;
+}
+
+#logo_white {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+
+#motto {
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
 }
